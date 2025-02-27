@@ -71,5 +71,5 @@ docstring-code-format = true
 
 [project.urls]
 Homepage = "https://erpnext.com/"
-Repository = "https://github.com/frappe/erpnext.git"
-"Bug Reports" = "https://github.com/frappe/erpnext/issues"
+Repository = "https://github.com/La-ah-Tech/erpnext.git"
+"Bug Reports" = "https://github.com/La-ah-Tech/erpnext/issues"

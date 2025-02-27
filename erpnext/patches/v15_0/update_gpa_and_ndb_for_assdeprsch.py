@@ -2,10 +2,10 @@ import frappe
 
 
 def execute():
-	# not using frappe.qb because https://github.com/frappe/frappe/issues/20292
-	# nosemgrep
-	frappe.db.sql(
-		"""UPDATE `tabAsset Depreciation Schedule`
+    # not using frappe.qb because https://github.com/La-ah-Tech/frappe/issues/20292
+    # nosemgrep
+    frappe.db.sql(
+        """UPDATE `tabAsset Depreciation Schedule`
         JOIN `tabAsset`
         ON `tabAsset Depreciation Schedule`.`asset`=`tabAsset`.`name`
         SET
@@ -18,4 +18,4 @@ def execute():
             `tabAsset Depreciation Schedule`.`opening_number_of_booked_depreciations`<>`tabAsset`.`opening_number_of_booked_depreciations`
         )
         AND `tabAsset Depreciation Schedule`.`docstatus`<2"""
-	)
+    )

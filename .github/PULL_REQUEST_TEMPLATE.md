@@ -9,14 +9,13 @@ Some key notes before you open a PR:
  5. Update necessary Documentation
  6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
 
-
 Also, if you're new here
 
-- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+- Documentation Guidelines => https://github.com/La-ah-Tech/erpnext/wiki/Updating-Documentation
 
-- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+- Contribution Guide => https://github.com/La-ah-Tech/erpnext/blob/develop/.github/CONTRIBUTING.md
 
-- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+- Pull Request Checklist => https://github.com/La-ah-Tech/erpnext/wiki/Pull-Request-Checklist
 
 -->
 

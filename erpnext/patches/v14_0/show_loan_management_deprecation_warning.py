@@ -11,6 +11,6 @@ def execute():
         " and will be removed from LaahTech-EM in Version 15."
         " Please install the Lending app when upgrading to Version 15"
         " to continue using the Loan Management module:\n"
-        "https://github.com/frappe/lending",
+        "https://github.com/La-ah-Tech/lending",
         fg="yellow",
     )

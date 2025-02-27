@@ -7,7 +7,7 @@
         <p>ERP made simple</p>
     </p>
 
-[![CI](https://github.com/frappe/erpnext/actions/workflows/server-tests.yml/badge.svg?branch=develop)](https://github.com/frappe/erpnext/actions/workflows/server-tests.yml)
+[![CI](https://github.com/La-ah-Tech/erpnext/actions/workflows/server-tests.yml/badge.svg?branch=develop)](https://github.com/La-ah-Tech/erpnext/actions/workflows/server-tests.yml)
 [![UI](https://github.com/erpnext/erpnext_ui_tests/actions/workflows/ui-tests.yml/badge.svg?branch=develop&event=schedule)](https://github.com/erpnext/erpnext_ui_tests/actions/workflows/ui-tests.yml)
 [![Open Source Helpers](https://www.codetriage.com/frappe/erpnext/badges/users.svg)](https://www.codetriage.com/frappe/erpnext)
 [![codecov](https://codecov.io/gh/frappe/erpnext/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/erpnext)
@@ -34,7 +34,7 @@ LaahTech-EM as a monolith includes the following areas for managing businesses:
 1. [Customize LaahTech-EM](https://erpnext.com/docs/user/manual/en/customize-erpnext)
 1. [And More](https://erpnext.com/docs/user/manual/en/)
 
-LaahTech-EM is built on the [Frappe Framework](https://github.com/frappe/frappe), a full-stack web app framework built with Python & JavaScript.
+LaahTech-EM is built on the [Frappe Framework](https://github.com/La-ah-Tech/frappe), a full-stack web app framework built with Python & JavaScript.
 
 ## Installation
 
@@ -51,14 +51,13 @@ LaahTech-EM is built on the [Frappe Framework](https://github.com/frappe/frappe)
 
 ### Containerized Installation
 
-Use docker to deploy LaahTech-EM in production or for development of [Frappe](https://github.com/frappe/frappe) apps. See https://github.com/frappe/frappe_docker for more details.
+Use docker to deploy LaahTech-EM in production or for development of [Frappe](https://github.com/La-ah-Tech/frappe) apps. See <https://github.com/La-ah-Tech/frappe_docker> for more details.
 
 ### Manual Install
 
-The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
+The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See <https://github.com/La-ah-Tech/bench> for more details.
 
 New passwords will be created for the LaahTech-EM "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
-
 
 ## Learning and community
 
@@ -67,14 +66,12 @@ New passwords will be created for the LaahTech-EM "Administrator" user, the Mari
 3. [Discussion Forum](https://discuss.erpnext.com/) - Engage with community of LaahTech-EM users and service providers.
 4. [Telegram Group](https://erpnext_public.t.me) - Get instant help from huge community of users.
 
-
 ## Contributing
 
-1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
+1. [Issue Guidelines](https://github.com/La-ah-Tech/erpnext/wiki/Issue-Guidelines)
 1. [Report Security Vulnerabilities](https://erpnext.com/security)
-1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
+1. [Pull Request Requirements](https://github.com/La-ah-Tech/erpnext/wiki/Contribution-Guidelines)
 1. [Translations](https://translate.erpnext.com)
-
 
 ## License
 

@@ -144,28 +144,28 @@ $.extend(erpnext.utils, {
 
 		var indicator = $(
 			'<div class="flex-column col-xs-6">' +
-				'<div style="margin-top:10px"><h6>' +
-				info.company +
-				"</h6></div>" +
-				'<div class="badge-link small" style="margin-bottom:10px"><span class="indicator blue">' +
-				"Annual Billing: " +
-				format_currency(info.billing_this_year, info.currency) +
-				"</span></div>" +
-				'<div class="badge-link small" style="margin-bottom:10px">' +
-				'<span class="indicator ' +
-				color +
-				'">Total Unpaid: ' +
-				format_currency(info.total_unpaid, info.currency) +
-				"</span></div>" +
-				"</div>"
+			'<div style="margin-top:10px"><h6>' +
+			info.company +
+			"</h6></div>" +
+			'<div class="badge-link small" style="margin-bottom:10px"><span class="indicator blue">' +
+			"Annual Billing: " +
+			format_currency(info.billing_this_year, info.currency) +
+			"</span></div>" +
+			'<div class="badge-link small" style="margin-bottom:10px">' +
+			'<span class="indicator ' +
+			color +
+			'">Total Unpaid: ' +
+			format_currency(info.total_unpaid, info.currency) +
+			"</span></div>" +
+			"</div>"
 		).appendTo(frm.dashboard.stats_area_row);
 
 		if (info.loyalty_points) {
 			$(
 				'<div class="badge-link small" style="margin-bottom:10px"><span class="indicator blue">' +
-					"Loyalty Points: " +
-					info.loyalty_points +
-					"</span></div>"
+				"Loyalty Points: " +
+				info.loyalty_points +
+				"</span></div>"
 			).appendTo(indicator);
 		}
 
@@ -382,7 +382,7 @@ $.extend(erpnext.utils, {
 		if (frappe.boot.versions && !frappe.boot.versions.payments) {
 			const marketplace_link =
 				'<a href="https://frappecloud.com/marketplace/apps/payments">Marketplace</a>';
-			const github_link = '<a href="https://github.com/frappe/payments/">GitHub</a>';
+			const github_link = '<a href="https://github.com/La-ah-Tech/payments/">GitHub</a>';
 			const msg = __("payments app is not installed. Please install it from {0} or {1}", [
 				marketplace_link,
 				github_link,
@@ -1138,14 +1138,14 @@ $(document).on("app_ready", function () {
 								};
 								frm.dashboard.set_headline_alert(
 									'<div class="row">' +
-										'<div class="col-xs-12">' +
-										'<span class="indicator whitespace-nowrap ' +
-										message.indicator +
-										'"><span>' +
-										message.msg +
-										"</span></span> " +
-										"</div>" +
-										"</div>"
+									'<div class="col-xs-12">' +
+									'<span class="indicator whitespace-nowrap ' +
+									message.indicator +
+									'"><span>' +
+									message.msg +
+									"</span></span> " +
+									"</div>" +
+									"</div>"
 								);
 							} else {
 								set_time_to_resolve_and_response(frm, data.message.apply_sla_for_resolution);
@@ -1162,14 +1162,14 @@ $(document).on("app_ready", function () {
 
 					frm.dashboard.set_headline_alert(
 						'<div class="row">' +
-							'<div class="col-xs-12">' +
-							'<span class="indicator whitespace-nowrap ' +
-							agreement_status.indicator +
-							'"><span class="hidden-xs">' +
-							agreement_status.msg +
-							"</span></span> " +
-							"</div>" +
-							"</div>"
+						'<div class="col-xs-12">' +
+						'<span class="indicator whitespace-nowrap ' +
+						agreement_status.indicator +
+						'"><span class="hidden-xs">' +
+						agreement_status.msg +
+						"</span></span> " +
+						"</div>" +
+						"</div>"
 					);
 				}
 			},

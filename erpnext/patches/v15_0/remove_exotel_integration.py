@@ -24,7 +24,7 @@ def execute():
 def notify_existing_users():
     click.secho(
         "Exotel integration is moved to a separate app and will be removed from LaahTech-EM in laahtech-em.\n"
-        "Please install the app to continue using the integration: https://github.com/frappe/exotel_integration",
+        "Please install the app to continue using the integration: https://github.com/La-ah-Tech/exotel_integration",
         fg="yellow",
     )
 
