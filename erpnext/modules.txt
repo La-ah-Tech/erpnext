@@ -12,7 +12,7 @@ Assets
 Portal
 Maintenance
 Regional
-ERPNext Integrations
+LaahTech-EM Integrations
 Quality Management
 Communication
 Telephony

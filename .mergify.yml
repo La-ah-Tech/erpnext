@@ -2,27 +2,27 @@ pull_request_rules:
   - name: Auto-close PRs on stable branch
     conditions:
       - and:
-        - and:
-          - author!=surajshetty3416
-          - author!=gavindsouza
-          - author!=rohitwaghchaure
-          - author!=nabinhait
-          - author!=ankush
-          - author!=deepeshgarg007
-          - author!=frappe-pr-bot
-          - author!=mergify[bot]
+          - and:
+              - author!=surajshetty3416
+              - author!=gavindsouza
+              - author!=rohitwaghchaure
+              - author!=nabinhait
+              - author!=ankush
+              - author!=deepeshgarg007
+              - author!=frappe-pr-bot
+              - author!=mergify[bot]
 
-        - or:
-          - base=version-13
-          - base=version-12
-          - base=version-14
-          - base=version-15
+          - or:
+              - base=version-13
+              - base=version-12
+              - base=version-14
+              - base=laahtech-em
     actions:
       close:
       comment:
-          message: |
-            @{{author}}, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.
-            https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch
+        message: |
+          @{{author}}, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.
+          https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch
 
   - name: Auto-close PRs on pre-release branch
     conditions:
@@ -30,9 +30,8 @@ pull_request_rules:
     actions:
       close:
       comment:
-          message: |
-            @{{author}}, pre-release branch is not maintained anymore. Releases are directly done by merging hotfix branch to stable branches.
-
+        message: |
+          @{{author}}, pre-release branch is not maintained anymore. Releases are directly done by merging hotfix branch to stable branches.
 
   - name: backport to develop
     conditions:
@@ -134,6 +133,6 @@ pull_request_rules:
       merge:
         method: squash
         commit_message_template: |
-            {{ title }} (#{{ number }})
+          {{ title }} (#{{ number }})
 
-            {{ body }}
+          {{ body }}

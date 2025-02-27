@@ -589,11 +589,11 @@ $.extend(erpnext.item, {
 				fields: [
 					frm.doc.image
 						? {
-								fieldtype: "Check",
-								label: __("Create a variant with the template image."),
-								fieldname: "use_template_image",
-								default: 0,
-						  }
+							fieldtype: "Check",
+							label: __("Create a variant with the template image."),
+							fieldname: "use_template_image",
+							default: 0,
+						}
 						: null,
 					{
 						fieldtype: "HTML",
@@ -922,7 +922,7 @@ frappe.tour["Item"] = [
 		fieldname: "is_stock_item",
 		title: "Maintain Stock",
 		description: __(
-			"If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item."
+			"If you are maintaining stock of this Item in your Inventory, LaahTech-EM will make a stock ledger entry for each transaction of this item."
 		),
 	},
 	{

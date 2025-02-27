@@ -2,7 +2,7 @@ name: Generate Semantic Release
 on:
   push:
     branches:
-      - version-15
+      - laahtech-em
 jobs:
   release:
     name: Release
