@@ -1,4 +1,4 @@
-app_name = "LaahTech EM"
+app_name = "erpnext"
 app_title = "LaahTech EM"
 app_publisher = "LaahTech"
 app_description = """ERP made simple"""
