@@ -461,7 +461,7 @@ scheduler_events = {
         ],
     },
     "hourly": [
-        "erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
+        "erpnext.laahtech_em_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
         "erpnext.projects.doctype.project.project.project_status_update_reminder",
         "erpnext.projects.doctype.project.project.hourly_reminder",
         "erpnext.projects.doctype.project.project.collect_project_status",
